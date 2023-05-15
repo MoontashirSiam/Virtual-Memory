@@ -1,0 +1,7 @@
+In order to simulate virtual memory, use the make file first.
+Then you need to specify the trace and algorithm. 
+Traces can be found in the traces folder
+Algorithms include random, clocksweep, and lru
+Example:
+$ make
+$ ./vm-sim -c -i traces/<trace>.trace -r<algorithm>
